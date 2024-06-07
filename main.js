@@ -6,6 +6,9 @@ import { callBacksComponent } from './src/concepts/02-callbacks';
 import { promesasComponent } from './src/concepts/03-promesas';
 import { promiseRaceComponent } from './src/concepts/04-promise-race';
 import { asyncComponent } from './src/concepts/05-async';
+import { asyncAwaitComponent } from './src/concepts/06-async-await';
+import { asyncAwait2Component } from './src/concepts/07-async-await';
+import { forAwaitComponent } from './src/concepts/08-for-await';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -33,5 +36,9 @@ const element = document.querySelector('.card');
 // promesasComponent( element );
 // promiseRaceComponent( element );
 // promiseRaceComponent( element );
-asyncComponent( element );
+// asyncComponent( element );
+// asyncAwaitComponent( element );
+// asyncAwaitComponent( element );
+// asyncAwait2Component( element );
+forAwaitComponent( element );
 
